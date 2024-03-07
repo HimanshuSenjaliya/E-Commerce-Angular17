@@ -1,0 +1,210 @@
+{
+  "seller": [
+    {
+      "id": "39bc",
+      "name": "Himanshu",
+      "email": "himanshu@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "d7f5",
+      "name": "manthan",
+      "password": "123456789",
+      "email": "manthan@gmail.com"
+    },
+    {
+      "id": "14b6",
+      "name": "brijesh",
+      "password": "123456789",
+      "email": "brijesh@gmail.com"
+    },
+    {
+      "id": "cf60",
+      "name": "bhavin",
+      "password": "123456789",
+      "email": "bhavin@gmail.com"
+    },
+    {
+      "id": "099c",
+      "name": "dhaval",
+      "password": "123456789",
+      "email": "dhaval@gmail.com"
+    },
+    {
+      "id": "53f9",
+      "name": "dhaval",
+      "password": "123456789",
+      "email": "dhaval@gmail.com"
+    },
+    {
+      "id": "cd8f",
+      "name": "fgh",
+      "password": "123",
+      "email": "fgh@gmail.com"
+    },
+    {
+      "id": "1187",
+      "name": "ndjf",
+      "password": "123",
+      "email": "dncdn@gmail.com"
+    },
+    {
+      "id": "a5f3",
+      "name": "kddknc",
+      "password": "123",
+      "email": "kenv@gmail.com"
+    },
+    {
+      "id": "c85a",
+      "name": "himanshu",
+      "password": "123456789",
+      "email": "hi@gmail.com"
+    },
+    {
+      "id": "05cd",
+      "email": "hi@gmail.com",
+      "password": "123456789"
+    }
+  ],
+  "products": [
+    {
+      "name": "I Phone15",
+      "price": "125000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "very good product",
+      "image": "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Black_Titanium_PDP_Image_Position-1__en-IN_ad326452-186a-484a-99a4-82dc80c280fb_823x.jpg?v=1694759404",
+      "id": "68ec"
+    },
+    {
+      "name": "Mac Book",
+      "price": "200000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Very Good Product",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba15-midnight-select-202306?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1684518479433",
+      "id": "e65c"
+    },
+    {
+      "name": "I Phone 14",
+      "price": "75000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "Very Good Apple Product",
+      "image": "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Black_Titanium_PDP_Image_Position-1__en-IN_ad326452-186a-484a-99a4-82dc80c280fb_823x.jpg?v=1694759404",
+      "id": "8a76"
+    },
+    {
+      "name": "Nike Men's ",
+      "price": "500",
+      "color": "red",
+      "category": "Shoes",
+      "description": "very Good Quality",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D",
+      "id": "5c5b"
+    },
+    {
+      "id": "c510",
+      "name": "One Plus",
+      "price": "45000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "Very Good Product.",
+      "image": "https://m.media-amazon.com/images/I/41NOKPCVM7L._SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "8a3e",
+      "name": "Noise Watch",
+      "price": "3300",
+      "color": "Blue",
+      "category": "Smart Watch",
+      "description": "Very Good Noise Product",
+      "image": "https://www.gonoise.com/cdn/shop/files/1_a5b3bc51-8a02-44ba-9ca4-383470c4c017.png?v=1697625441"
+    },
+    {
+      "id": "7e9e",
+      "name": "Samsung Watch",
+      "price": "20000",
+      "color": "Black",
+      "category": "Smart Watch",
+      "description": "Very Good Product",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-watch4-classic-399241-sm-r895fzkainu-481181864?$1300_1038_PNG$"
+    }
+  ],
+  "users": [
+    {
+      "id": "125c",
+      "name": "manthan",
+      "email": "manthan@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "b449",
+      "name": "himanshu",
+      "email": "himanshu@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "c322",
+      "name": "manthan",
+      "email": "manthan@gmail.com",
+      "password": "123456789"
+    }
+  ],
+  "cart": [
+    {
+      "id": "f1e6",
+      "name": "I Phone 14",
+      "price": "75000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "Very Good Apple Product",
+      "image": "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Black_Titanium_PDP_Image_Position-1__en-IN_ad326452-186a-484a-99a4-82dc80c280fb_823x.jpg?v=1694759404",
+      "quantity": 1,
+      "userId": "125c",
+      "productId": "8a76"
+    },
+    {
+      "id": "0848",
+      "name": "One Plus",
+      "price": "45000",
+      "color": "black",
+      "category": "Mobile",
+      "description": "Very Good Product.",
+      "image": "https://m.media-amazon.com/images/I/41NOKPCVM7L._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "userId": "125c",
+      "productId": "c510"
+    },
+    {
+      "id": "d5df",
+      "name": "Nike Men's ",
+      "price": "500",
+      "color": "red",
+      "category": "Shoes",
+      "description": "very Good Quality",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D",
+      "quantity": 1,
+      "userId": "125c",
+      "productId": "5c5b"
+    }
+  ],
+  "orders": [
+    {
+      "id": "566c",
+      "email": "himanshu@gmail.com",
+      "address": "nccuefuhruhgun",
+      "contact": 7265929559,
+      "totalPrice": 585100,
+      "userId": "b449"
+    },
+    {
+      "id": "70fa",
+      "email": "manthan@gmail.com",
+      "address": "njvnjjnbjnb",
+      "contact": 7265929559,
+      "totalPrice": 281700,
+      "userId": "b449"
+    }
+  ]
+}

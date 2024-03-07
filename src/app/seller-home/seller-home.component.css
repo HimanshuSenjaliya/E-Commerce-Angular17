@@ -1,0 +1,25 @@
+.product-list {
+  margin-bottom: 150px;
+}
+
+table {
+  text-align: left;
+  color: blueviolet;
+  border-collapse: collapse;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+}
+
+table td,
+table th {
+  border: 1px solid blueviolet;
+  padding: 10px;
+  min-width: 100px;
+}
+
+.link {
+  margin-left: 10px;
+}

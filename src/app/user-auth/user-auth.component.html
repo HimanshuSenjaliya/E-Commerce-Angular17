@@ -1,0 +1,83 @@
+<div class="user-auth">
+  <div *ngIf="!showLogin" class="sign-up">
+    <h1>User SignUp</h1>
+    <form
+      #userSignUp="ngForm"
+      (ngSubmit)="signUp(userSignUp.value)"
+      class="form"
+    >
+      <input
+        type="text"
+        name="name"
+        placeholder="Enter User Name..."
+        ngModel
+        class="form-input"
+      />
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter User Email..."
+        ngModel
+        class="form-input"
+      />
+
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter User Password..."
+        ngModel
+        class="form-input"
+      />
+
+      <button class="form-button">Sign Up</button>
+      <p>
+        Already have Account?
+        <a class="auth-toggle-link" (click)="openLogin()">login</a>
+      </p>
+    </form>
+  </div>
+  <div *ngIf="showLogin" class="login">
+    <h1>User Login</h1>
+    <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)" class="form">
+      <p class="error">{{authError}}</p>
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter User Email..."
+        ngModel
+        email
+        class="form-input"
+        #email="ngModel"
+        required
+      />
+      <p class="invalid-input">
+        <span *ngIf="email.invalid && email.touched"
+          >Please Enter Email</span
+        >
+      </p>
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter User Password..."
+        ngModel
+        minlength="2"
+        maxlength="15"
+        class="form-input"
+        #password="ngModel"
+        required
+      />
+      <p class="invalid-input">
+        <span *ngIf="password.invalid && password.touched"
+          >Please Enter  Password</span
+        >
+      </p>
+
+      <button [disabled]="userLogin?.invalid" class="form-button">Login</button>
+      <p>
+        Don't have Account?
+        <a class="auth-toggle-link" (click)="openSignUp()"> SignUp</a>
+      </p>
+    </form>
+  </div>
+</div>
